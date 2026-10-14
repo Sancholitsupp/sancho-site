@@ -124,6 +124,34 @@
     --saddle-dark: #e0a274;
     --line: #40382a;
   }
+  img { max-width: 100%; }
+  header { padding: 32px 0 24px; }
+  .brand-row { gap: 20px; }
+  .logo { width: 132px; border: 1px solid var(--line); }
+  .brand { line-height: 1.1; }
+  .tagline { line-height: 1.4; margin-top: 6px; }
+  .hero { padding: 48px 0 44px; }
+  .hero p { margin-bottom: 0; }
+  section { padding: 44px 0; }
+  section p { margin: 0 0 16px; }
+  section p:last-child { margin-bottom: 0; }
+  .btn { text-align: center; }
+  .btn:focus-visible { outline: 3px solid var(--saddle); outline-offset: 3px; }
+  .price-card { padding: 28px; }
+  #faq h3 { font-family: 'Spectral', Georgia, serif; font-size: 18px; font-weight: 600; line-height: 1.35; margin: 28px 0 6px; }
+  #faq h3:first-of-type { margin-top: 0; }
+  #faq p { margin: 0; font-size: 15.5px; }
+  @media (max-width: 520px) {
+    .wrap { padding: 0 20px; }
+    .logo { width: 88px; }
+    .brand-row { gap: 14px; }
+    .brand { font-size: 34px; }
+    .tagline { font-size: 14px; }
+    .hero { padding: 36px 0 32px; }
+    .hero h1 { font-size: 28px; }
+    section { padding: 36px 0; }
+    .price-card .btn { display: block; }
+  }
 </style>
 </head>
 <body>
